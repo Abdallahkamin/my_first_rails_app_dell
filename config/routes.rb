@@ -55,3 +55,7 @@ MyFirstRailsApp::Application.routes.draw do
   #     resources :products
   #   end
 end
+Rails.application.routes.draw do
+  root 'cars#index'
+  resources :cars
+end
